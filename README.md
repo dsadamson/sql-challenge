@@ -73,7 +73,7 @@ their correct department:
 even if it is slower and somewhat less efficient. I included the pSQL commands I used to import this data in a .txt file, in this repository, but I advise
 all potential users to download the data onto their local machine, then import it from there into the tables. I further advise users to attempt to use the
 built-in 'import/export' function first; if it doesn't work, then use my pSQL script as a guide, replacing the file path with the one corresponding to their
-own machine.
+own machine. The script that was used to import the .csv files into the tables can be found in the file 'psql_table_import.txt'.
 
 # Acknowledgements
 
