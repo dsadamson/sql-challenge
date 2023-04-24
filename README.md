@@ -32,20 +32,35 @@ then the department numbers in 'department_employees' and 'departments', and fin
 their correct department:
 
   SELECT 
+  
 	  e.emp_no, 
+	  
 	  e.last_name, 
+	  
 	  e.first_name,
+	  
 	  d.dept_name
+	  
   FROM employees e
+  
   INNER JOIN department_employees de ON e.emp_no = de.emp_no 
+  
   INNER JOIN departments d ON de.dept_no = d.dept_no
+  
   WHERE (d.dept_no = 'd007' AND d.dept_name = 'Sales')
+  
      OR (d.dept_no = 'd005' AND d.dept_name = 'Development')
+     
   GROUP BY 
+  
 	  e.emp_no, 
+	  
 	  e.last_name, 
+	  
 	  e.first_name,
+	  
 	  d.dept_name
+	  
   ORDER BY e.emp_no;
  
  (Note that this code also uses abbreviations for each table. Although the code would have worked the same without the abbreviations, I used them to limit
@@ -67,4 +82,5 @@ The Entity Relationship Diagram (ERD) included in this repository was created us
 Data was provided by the Data Visualization & Analytics Boot Camp at The Ohio State University.
 
 #Author
+
 Daniel Adamson
