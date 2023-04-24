@@ -1,0 +1,25 @@
+#NOTE: Be sure to replace the path to each csv file with the path on your own local machine. Each csv file is available in the folder entitled \'91data\'92 in this GitHub repository.\
+\
+#import table employees
+\
+\copy employees FROM '/Users/danieladamson/Downloads/Starter_Code 14/data/employees.csv' DELIMITER ',' CSV HEADER;
+\
+#import table titles
+\
+ \copy titles FROM '/Users/danieladamson/Downloads/Starter_Code 14/data/titles.csv' DELIMITER ',' CSV HEADER;
+\
+#import table departments
+\
+\copy departments FROM ''/Users/danieladamson/Downloads/Starter_Code 14/data/departments.csv' DELIMITER ',' CSV HEADER;
+\
+#import table department employees
+\
+\copy department_employees FROM '/Users/danieladamson/Downloads/Starter_Code 14/data/dept_emp.csv' DELIMITER ',' CSV HEADER;
+\
+#import table department managers
+\
+\copy department_managers FROM '/Users/danieladamson/Downloads/Starter_Code 14/data/dept_manager.csv' DELIMITER ',' CSV HEADER;
+\
+#import table salary
+\
+\copy salary FROM '/Users/danieladamson/Downloads/Starter_Code 14/data/salaries.csv' DELIMITER ',' CSV HEADER;
