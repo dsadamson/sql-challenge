@@ -75,12 +75,13 @@ all potential users to download the data onto their local machine, then import i
 built-in 'import/export' function first; if it doesn't work, then use my pSQL script as a guide, replacing the file path with the one corresponding to their
 own machine.
 
-#Acknowledgements
+# Acknowledgements
 
 The Entity Relationship Diagram (ERD) included in this repository was created using https://app.quickdatabasediagrams.com/ .
 
 Data was provided by the Data Visualization & Analytics Boot Camp at The Ohio State University.
 
-#Author
+
+# Author
 
 Daniel Adamson
